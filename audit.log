@@ -1,0 +1,13 @@
+2025-04-16 01:52:04,407 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-04-16 01:52:04,891 - 2025-04-16 00:52:04 | LOGIN_SUCCESS | Collins | Login from IP 127.0.0.1
+2025-04-16 01:55:47,839 - 2025-04-16 00:55:47 | USER_CREATED | Collins | Created user Maureen
+2025-04-16 01:57:02,112 - 2025-04-16 00:57:02 | ROLE_CHANGED | Collins | Changed role of Maureen to security
+2025-04-16 02:03:31,044 - 2025-04-16 01:03:31 | USER_CREATED | Collins | Created user Victory
+2025-04-16 02:04:17,358 - 2025-04-16 01:04:17 | LOGIN_SUCCESS | Victory | Login from IP 127.0.0.1
+2025-04-16 02:05:25,811 - 2025-04-16 01:05:25 | LOGIN_SUCCESS | Victory | Login from IP 127.0.0.1
+2025-04-16 02:06:47,411 - 2025-04-16 01:06:47 | LOGIN_SUCCESS | Maureen | Login from IP 127.0.0.1
